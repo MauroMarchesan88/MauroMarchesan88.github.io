@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(137, 158, 189);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2%;
+  }
+  h1 {
+    text-align: center;
+    border: 4px solid slateblue;
+  }
+  #imagem {
+    width: 250px;
+    float: right;
+    border-radius: 10%;
+    padding: 10px;
+    background-color: rgb(62, 143, 143);
+}
+  #pRedes {
+    background-color: dodgerblue;
+  }
+  #Descricao {
+    font-family:Calibri;
+    font-size: large;
+    height: 190px;
+    text-justify: auto;
+    padding-top: 3%;
+  }
+  nav {
+      float: center;
+      top: 100px;
+      nav-left: 10px;
+  }
+  footer {
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  ol li:nth-child(odd) {
+      font-style: italic;
+  }
