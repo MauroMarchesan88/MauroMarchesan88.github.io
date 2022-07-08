@@ -4,13 +4,12 @@ import React from 'react';
 
 function Nav() {
   return (
-    <nav>
-      <p><a href="#Top">Top</a>
-        <a href="#Habilidades">Habilidades</a>
-        <a href="#Sobre">Sobre</a>
-        <a href="#Redes">Redes</a>
-        <a href="/Projeto-TrybeWallet">Projeto TrybeWallet</a>
-      </p>
+    <nav className='nav'>
+      <a href="#Top">Top</a>
+      <a href="#Habilidades">Habilidades</a>
+      <a href="#Sobre">Sobre</a>
+      <a href="#Redes">Redes</a>
+      <a href="/Projeto-TrybeWallet">Projeto TrybeWallet</a>
     </nav>
   )
 }

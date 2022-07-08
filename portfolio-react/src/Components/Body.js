@@ -1,30 +1,27 @@
 import React from "react";
+import photo from "../img/photo.jpg";
 // import React, { useContext, useEffect, useState } from 'react';
 // import MyContext from '../context/MyContext';
 
 function Body() {
   return (
     <>
-      <div>
-        <h1 id="Top">Portfolio Mauro Marchesan</h1>
+      <h1 id="Top">Portfolio Mauro Marchesan</h1>
+      <div className="photo">
+        <img id="imagem" src={photo} alt="Foto de perfil Linkedin" ></img>
       </div>
-      <div>
-        <img id="imagem" src="FB_IMG_16322843886762586.jpg" alt="Foto de perfil Linkedin" ></img>
+      <div className="Descricao">
+        Ola!
+        Sou <b>Mauro</b>, nascido em Neuquén, Argentina e atualmente moro em Cabo Frio, Rio de Janeiro.
+        Este sera meu Portfolio Web com os trabalhos que realizarei durante o curso de Dev na <a href="https://www.betrybe.com">Trybe!</a>
+        <h3><em>Nesta aventura precisarei de:</em></h3>
+        <ul>
+          <li>Esforço.</li>
+          <li>Dedicação.</li>
+          <li>Apoio.</li>
+          <li>Pratica, <strong>muita pratica.</strong></li>
+        </ul>
       </div>
-      <div>
-        <p id="Descricao">
-          Ola!
-          Sou <b>Mauro</b>, nascido em Neuquén, Argentina e atualmente moro em Cabo Frio, Rio de Janeiro.
-          Este sera meu Portfolio Web com os trabalhos que realizarei durante o curso de Dev na <a href="https://www.betrybe.com">Trybe!</a>
-        </p>
-      </div>
-      <h3><em>Nesta aventura precisarei de:</em></h3>
-      <ul>
-        <li>Esforço.</li>
-        <li>Dedicação.</li>
-        <li>Apoio.</li>
-        <li>Pratica, <strong>muita pratica.</strong></li>
-      </ul>
       <h3 id="Habilidades">Minhas habilidades <em>aventureiras</em>: </h3>
       <ol>
         <li>Empatia.</li>
