@@ -9,7 +9,8 @@ function Nav() {
       <a href="#Habilidades">Habilidades</a>
       <a href="#Sobre">Sobre</a>
       <a href="#Redes">Redes</a>
-      <a href="/Projeto-TrybeWallet">Projeto TrybeWallet</a>
+      <a href="https://trybe-wallet-mauro.netlify.app/">Projeto TrybeWallet</a>
+      <a href="https://fighting-game-mauromarchesan.netlify.app/">Fight Game</a>
     </nav>
   )
 }
