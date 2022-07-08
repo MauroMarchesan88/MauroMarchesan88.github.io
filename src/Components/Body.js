@@ -14,13 +14,15 @@ function Body() {
         Ola!
         Sou <b>Mauro</b>, nascido em Neuquén, Argentina e atualmente moro em Cabo Frio, Rio de Janeiro.
         Este sera meu Portfolio Web com os trabalhos que realizarei durante o curso de Dev na <a href="https://www.betrybe.com">Trybe!</a>
-        <h3><em>Nesta aventura precisarei de:</em></h3>
-        <ul>
-          <li>Esforço.</li>
-          <li>Dedicação.</li>
-          <li>Apoio.</li>
-          <li>Pratica, <strong>muita pratica.</strong></li>
-        </ul>
+        <div className="Ferramentas">
+          <h3><em>Nesta aventura precisarei de:</em></h3>
+          <ul>
+            <li>Esforço.</li>
+            <li>Dedicação.</li>
+            <li>Apoio.</li>
+            <li>Pratica, <strong>muita pratica.</strong></li>
+          </ul>
+        </div>
       </div>
       <h3 id="Habilidades">Minhas habilidades <em>aventureiras</em>: </h3>
       <ol>

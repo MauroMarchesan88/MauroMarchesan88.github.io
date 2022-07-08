@@ -1,0 +1,2 @@
+acomodar herramientas para responsivo
+completar con herramientas, separar front y backend
