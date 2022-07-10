@@ -1,0 +1,20 @@
+{
+  "short_name": "Portfolio",
+  "name": "Portfolio Mauro Marchesan",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "photo.png",
+      "type": "image/png",
+      "sizes": "720x538"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
