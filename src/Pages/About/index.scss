@@ -1,0 +1,36 @@
+.projects {
+    position: absolute;
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.project1 {
+    background-color: aqua;
+    width: 500px;
+    height: 250px;
+}
+
+.project2 {
+    background-color: aquamarine;
+    margin-left: 50px;
+    width: 500px;
+    height: 250px;
+}
+
+.project3 {
+    background-color: rgb(127, 146, 255);
+    margin-top: 50px;
+    width: 500px;
+    height: 250px;
+}
+
+.project4 {
+    margin-top: 50px;
+    background-color: rgb(255, 153, 127);
+    margin-left: 50px;
+    width: 500px;
+    height: 250px;
+}
