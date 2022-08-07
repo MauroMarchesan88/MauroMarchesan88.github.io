@@ -1,20 +1,26 @@
 .descricao {
     margin-left: 100px;
     position: absolute;
+    left: 50px;
     top: 400px;
     font-size: 24px;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
 }
 
 .tripWithDad {
     position: absolute;
     width: 400px;
     height: 400px;
-    margin-right: 0;
-    margin-left: 800px;
+    right: 100px;
     top: 150px;
 
     img {
-        width: 400px;
+        width: 300px;
+        height: 300px;
         border-radius: 25%;
     }
 }
@@ -31,5 +37,22 @@
     a {
         text-decoration: none;
         color:black;
+    }
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .tripWithDad {
+        top: 150px;
+    }
+
+    .descricao {
+        top: 500px;
+    }
+}
+
+  @media only screen and (max-width: 720px) {
+    .tripWithDad {
+        left: 150px;
     }
 }
