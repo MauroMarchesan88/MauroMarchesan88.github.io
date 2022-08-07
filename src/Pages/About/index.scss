@@ -1,0 +1,110 @@
+.projects {
+    position: absolute;
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+.project1 {
+    position: relative;
+    background-color: aqua;
+    width: 500px;
+    height: 250px;
+
+}
+
+.project2 {
+    position: relative;
+    background-color: aquamarine;
+    margin-left: 50px;
+    width: 500px;
+    height: 250px;
+}
+
+.project3 {
+    position: relative;
+    margin-top: 50px;
+    width: 500px;
+    height: 250px;
+}
+
+.project4 {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 250px;
+}
+
+img{
+    width: 500px;
+    height: 250px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button {
+    position: relative;
+    left: 150px;
+    color: rgb(242, 240, 255);
+    background-color: #ffd700;
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+}
+
+@media only screen and (max-width: 2560px) {
+    .project1, .project2, .project3, .project4 {
+
+        margin-left: 50px;
+    }
+
+    .project2, .project3, .project4 {
+        margin-top: 0px;
+    }
+  }
+
+@media only screen and (min-width: 1650px) {
+    .project2, .project4 {
+        margin-left: 50px;
+    }
+
+    .project2, .project4 {
+        margin-top: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 1440px) {
+    .project2, .project4 {
+        margin-left: 50px;
+    }
+
+    .project3, .project4 {
+        margin-top: 50px;
+    }
+  }
+
+@media only screen and (max-width: 1150px) {
+    .project2, .project4 {
+        margin-left: 10px;
+    }
+
+    .project2 {
+        margin-top: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 1110px) {
+    .project1, .project2, .project3, .project4 {
+        margin-left: 50px;
+    }
+
+    .project2 {
+        margin-top: 50px;
+    }
+  }
