@@ -40,8 +40,17 @@
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .nav-bar {
+        height: 1200px;
+    }
+}
 
 @media only screen and (max-width: 1100px) {
+    .nav-bar {
+        height: 1240px;
+    }
+    
     .tripWithDad {
         top: 150px;
     }
@@ -51,8 +60,15 @@
     }
 }
 
-  @media only screen and (max-width: 720px) {
+@media only screen and (max-width: 720px) {
     .tripWithDad {
         left: 150px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .App {
+        min-height: 100vh;
+        overflow: auto;
     }
 }
