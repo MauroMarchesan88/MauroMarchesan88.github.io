@@ -1,5 +1,4 @@
 import React from 'react';
-import Sidebar from '../../Components/Sidebar';
 // import React, { useContext, useEffect, useState } from 'react';
 // import MyContext from '../context/MyContext';
 import gamePhoto from '../../assets/images/game.png';
@@ -9,7 +8,6 @@ import './index.scss';
 function About() {
   return (
     <div className='about'>
-      <Sidebar />
       <div className='projects'>
         <div className='project1'>
           <button type='button'>
