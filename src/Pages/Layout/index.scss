@@ -1,74 +1,92 @@
-.descricao {
-    margin-left: 100px;
-    position: absolute;
-    left: 50px;
-    top: 400px;
-    font-size: 24px;
+.root {
+    // height: 100vh;
+    
 }
 
-.App {
+.descricao {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    
+    p {
+        padding: 1rem;
+    }
+}
+
+.layout-container {
+    height: 100vh;
     display: flex;
     justify-content: center;
+    width: 100%;
+    padding: 3rem;
+}
+
+.layout-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
 }
 
 .tripWithDad {
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    right: 100px;
-    top: 150px;
 
     img {
         width: 300px;
         height: 300px;
         border-radius: 25%;
+    padding: 1rem;
+
     }
 }
 
-.contactBtn {
-    margin-top: 15px;
+#contactA {
+    margin: 1rem;
     width: 200px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bolder;
     height: 30px;
     background-color: orange;
     border-color: orange;
-
-    a {
-        text-decoration: none;
-        color:black;
-    }
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    font-size: 1.5rem;
+    color: black;
 }
 
-@media only screen and (max-width: 1200px) {
-    .nav-bar {
-        height: 1200px;
-    }
-}
+// @media only screen and (max-width: 1200px) {
+//     .nav-bar {
+//         height: 1200px;
+//     }
+// }
 
-@media only screen and (max-width: 1100px) {
-    .nav-bar {
-        height: 1240px;
-    }
-    
-    .tripWithDad {
-        top: 150px;
+// @media only screen and (max-width: 1100px) {
+//     .nav-bar {
+//         height: 1240px;
+//     }
+// }
+
+@media only screen and (max-width: 900px) {
+    .layout-wrapper {
+        flex-direction: column;
     }
 
     .descricao {
-        top: 500px;
+        align-items: center;
     }
 }
 
-@media only screen and (max-width: 720px) {
-    .tripWithDad {
-        left: 150px;
-    }
-}
+// @media only screen and (max-width: 720px) {
+//     .tripWithDad {
+//         left: 150px;
+//     }
+// }
 
-@media only screen and (max-width: 550px) {
-    .App {
-        min-height: 100vh;
-        overflow: auto;
+@media only screen and (max-width: 450px) {
+    .descricao p {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 3.5rem;
     }
 }
