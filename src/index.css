@@ -12,10 +12,3 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-/* @media only screen and (max-width: 550px) {
-  body {
-      position: absolute;
-      min-height: 100vh;
-    }
-} */
