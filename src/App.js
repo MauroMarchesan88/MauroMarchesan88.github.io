@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.scss';
-import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 import Layout from './Pages/Layout/Layout';
+import Projects from './Pages/Projects/Projects';
 // import Provider from './Provider';
-import Sidebar from './Components/Sidebar/index';
+import Sidebar from './Components/Sidebar/Sidebar';
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/about' element={<About />} />
+        <Route path='/projects' element={<Projects />} />
       </Routes>
     </>
   );

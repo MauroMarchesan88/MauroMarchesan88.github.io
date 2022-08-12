@@ -1,24 +1,17 @@
-.root {
-    // height: 100vh;
-    
-}
-
 .descricao {
     display: flex;
     flex-direction: column;
     font-size: 2rem;
-    
     p {
         padding: 1rem;
     }
 }
 
 .layout-container {
-    height: 100vh;
     display: flex;
     justify-content: center;
-    width: 100%;
-    padding: 3rem;
+    padding: 7rem;
+    padding-top: 14rem;
 }
 
 .layout-wrapper {
@@ -30,13 +23,11 @@
 }
 
 .tripWithDad {
-
     img {
         width: 300px;
         height: 300px;
         border-radius: 25%;
-    padding: 1rem;
-
+        padding: 1rem;
     }
 }
 
@@ -55,17 +46,13 @@
     color: black;
 }
 
-// @media only screen and (max-width: 1200px) {
-//     .nav-bar {
-//         height: 1200px;
-//     }
-// }
-
-// @media only screen and (max-width: 1100px) {
-//     .nav-bar {
-//         height: 1240px;
-//     }
-// }
+.tools-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
 @media only screen and (max-width: 900px) {
     .layout-wrapper {
@@ -76,12 +63,6 @@
         align-items: center;
     }
 }
-
-// @media only screen and (max-width: 720px) {
-//     .tripWithDad {
-//         left: 150px;
-//     }
-// }
 
 @media only screen and (max-width: 450px) {
     .descricao p {
