@@ -4,6 +4,7 @@ import './App.scss';
 import Contact from './Pages/Contact/Contact';
 import Layout from './Pages/Layout/Layout';
 import Projects from './Pages/Projects/Projects';
+import Thanks from './Pages/Thanks/Thanks';
 // import Provider from './Provider';
 import Sidebar from './Components/Sidebar/Sidebar';
 
@@ -14,6 +15,7 @@ function App() {
       <Sidebar />
       <Routes>
         <Route path='/' element={<Layout />} />
+        <Route path='/thanks' element={<Thanks />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/projects' element={<Projects />} />
       </Routes>

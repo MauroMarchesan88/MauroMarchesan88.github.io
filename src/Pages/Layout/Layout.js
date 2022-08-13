@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Moto from '../../assets/images/FotoGitHub.jpg';
 import Tools from '../../Components/Tools/Tools';
 import './index.scss';
@@ -13,7 +14,7 @@ const Layout = () => {
                         </p>
                         <div>
                             <label htmlFor='contactA'>
-                                <a href="mailto:mauromarchesan88@gmail.com" id='contactA' target="_blank" rel="noreferrer"> Contact </a>
+                                <Link to='/contact' id='contactA'> Contact </Link>
                             </label>
                         </div>
                     </div>
