@@ -1,6 +1,7 @@
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './index.scss';
 
 function Contact() {
@@ -27,8 +28,11 @@ function Contact() {
                             <input type="email" name="email" placeholder="Your email.." required></input>
                             <label htmlFor="message">Message</label>
                             <textarea id="message" name="message" placeholder="Write something.."></textarea>
+                            <input type="text" name="_honey" className='honey'></input>
                             <input type="hidden" name="_next" value="https://portfolio-mauro.netlify.app/thanks"></input>
+                            <input type="hidden" name="_captcha" value="false"></input>
                             <input type="submit" className='sbmt' value="Submit" />
+                            <NavLink exact="true" activeclassname="active" className="contact-link" to="/thanks" />
                         </form>
                     </div>
                 </div>
