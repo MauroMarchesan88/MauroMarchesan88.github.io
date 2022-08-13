@@ -1,12 +1,11 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.scss';
+import Sidebar from './Components/Sidebar/Sidebar';
 import Contact from './Pages/Contact/Contact';
 import Layout from './Pages/Layout/Layout';
 import Projects from './Pages/Projects/Projects';
 import Thanks from './Pages/Thanks/Thanks';
-// import Provider from './Provider';
-import Sidebar from './Components/Sidebar/Sidebar';
 
 
 function App() {
