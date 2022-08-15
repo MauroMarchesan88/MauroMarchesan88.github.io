@@ -9,7 +9,7 @@ const Layout = () => {
             <div className='layout-container'>
                 <div className='layout-wrapper'>
                     <div className="descricao">
-                        <p>Ola! Sou
+                        <p>Hi! i'm
                             <span><b> Mauro</b>. Fullstack Web Developer.</span>
                         </p>
                         <div>
