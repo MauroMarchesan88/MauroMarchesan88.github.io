@@ -4,7 +4,7 @@ import './index.scss';
 function Tools() {
   return (
     <>
-      <h3><em>Ferramentas e tecnologias que uso:</em></h3>
+      <h3><em>Tools and Technologies I use:</em></h3>
       <div className="tools">
         <img alt="express" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" className="express" />
         <img alt="git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
