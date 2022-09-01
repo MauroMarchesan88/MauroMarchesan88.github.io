@@ -54,6 +54,11 @@
     align-items: center;
 }
 
+::page-transition-outgoing-image(root),
+::page-transition-incoming-image(root) {
+  animation-duration: 1.5s;
+}
+
 @media only screen and (max-width: 900px) {
     .layout-wrapper {
         flex-direction: column;

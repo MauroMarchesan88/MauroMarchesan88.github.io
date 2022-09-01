@@ -33,7 +33,7 @@
         margin-top: -120px;
         width: 100%;
 
-        a {
+        li {
             font-size: 22px;
             color: #4d4d4e;
             display: block;
@@ -78,19 +78,19 @@
             }
         }
         
-        a.about-link {
+        li.about-link {
             &:after {
                 content: 'PROJECTS';
             }
         }
 
-        a.contact-link {
+        li.contact-link {
             &:after {
                 content: 'CONTACT';
             }
         }
 
-        a.active {
+        li.active {
             svg {
                 color: #ffd700
             }

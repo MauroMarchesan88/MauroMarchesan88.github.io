@@ -1,9 +1,11 @@
-import { Link } from 'react-router-dom';
+import { useTransitionNavigate } from '../../utils/Transition';
 import Moto from '../../assets/images/FotoGitHub.jpg';
 import Tools from '../../Components/Tools/Tools';
 import './index.scss';
 
 const Layout = () => {
+    const navigate = useTransitionNavigate();
+
     return (
         <>
             <div className='layout-container'>
@@ -14,7 +16,7 @@ const Layout = () => {
                         </p>
                         <div>
                             <label htmlFor='contactA'>
-                                <Link to='/contact' id='contactA'> Contact </Link>
+                                <span onClick={()=> navigate('/contact')} id='contactA'> Contact </span>
                             </label>
                         </div>
                     </div>
