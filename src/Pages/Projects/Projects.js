@@ -21,7 +21,7 @@ function Projects() {
               {/* <a href="https://trybe-wallet-mauro.netlify.app/" id='project1' target="_blank" rel="noreferrer">Live</a> */}
             </label>
             <label htmlFor='project1b'>
-              {/* <a href='https://github.com/MauroMarchesan88/Projeto-TrybeWallet' id='project1b' target="_blank" rel="noreferrer">Code</a> */}
+              <a href='https://github.com/MauroMarchesan88/Project-Fooball-Club' id='project1b' target="_blank" rel="noreferrer">Code</a>
             </label>
             <div className='projectDesc'>
               <p>Fullstack Project Example:
